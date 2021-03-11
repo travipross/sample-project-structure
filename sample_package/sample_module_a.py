@@ -1,4 +1,6 @@
 from sample_package.sample_subpackage.sample_submodule_a import func_a, func_b
+# These functions are imported from the submodule. This helps keep code for related
+# functions grouped together, while still being accessible anywhere else in the code.
 
 def func_x():
     print("Hello, this is func_x. It runs func_a() from another subpackage.")
