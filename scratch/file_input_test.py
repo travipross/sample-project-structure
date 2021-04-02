@@ -28,6 +28,11 @@ def parse_filename(filename, pattern=DEFAULT_PATTERN):
     return output_dict
 
 
+
+
+
+
+
 if __name__ == "__main__":
     print("hello")
     # sample_import.delete_all_my_files()
